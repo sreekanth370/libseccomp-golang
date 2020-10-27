@@ -11,13 +11,13 @@ notifications:
     on_success: always
     on_failure: always
 
-arch:
-  - amd64
-
 os:
   - linux
 
 language: go
+arch:
+ - amd64
+ - ppc64le
 
 addons:
   apt:
